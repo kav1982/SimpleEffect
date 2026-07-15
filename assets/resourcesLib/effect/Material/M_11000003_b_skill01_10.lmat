@@ -1,0 +1,161 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "textures": [
+      {
+        "path": "res://1373478a-8fb2-4e62-b8db-c3ee18f2bddf",
+        "constructParams": [
+          512,
+          512,
+          1,
+          true,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 1,
+          "wrapModeV": 1,
+          "anisoLevel": 4
+        },
+        "name": "u_AlbedoTexture"
+      },
+      {
+        "path": "res://9bb23fb3-89f6-4433-8eec-9fd8bc4777bd",
+        "constructParams": [
+          64,
+          64,
+          1,
+          true,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 1,
+          "wrapModeV": 1,
+          "anisoLevel": 4
+        },
+        "name": "_DissolveMap"
+      },
+      {
+        "path": "res://00000000-0000-0000-0001-000000000000",
+        "constructParams": [
+          1,
+          1,
+          1,
+          false,
+          false,
+          false
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 4
+        },
+        "name": "_MaskMap"
+      }
+    ],
+    "type": "SceneEffectCommon",
+    "renderQueue": 3000,
+    "materialRenderMode": 2,
+    "u_AlphaTestValue": 0.5,
+    "s_Cull": 2,
+    "s_Blend": 1,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 7,
+    "s_BlendSrcRGB": 0,
+    "s_BlendDstRGB": 0,
+    "s_BlendSrcAlpha": 0,
+    "s_BlendDstAlpha": 0,
+    "s_DepthTest": 1,
+    "s_DepthWrite": false,
+    "u_AlbedoColor": [
+      0.9999999999999999,
+      0.9999999999999999,
+      0.9999999999999999,
+      1
+    ],
+    "u_TilingOffset": [
+      1,
+      1,
+      0,
+      -0.01
+    ],
+    "u_AlbedoColorStrength": 4,
+    "_AlbedoTextureUVAnim": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "FaceToCamera": false,
+    "CurveWorld": true,
+    "isUIEffect": false,
+    "u_SheetParam": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_EnableAnimControl": false,
+    "u_SheetProgress": 0.22499999403953552,
+    "_EnablePosRandom": 0,
+    "u_PosRandomScale": 1,
+    "_AlbedoReceiveDistort": true,
+    "_DistortParam": [
+      1,
+      1,
+      0.5,
+      1
+    ],
+    "_DissolveReceiveDistort": true,
+    "_DissolveEdgeColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_DissolveParam": [
+      0,
+      0,
+      0,
+      0.5
+    ],
+    "_DissolveParam2": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "_MaskChannelA": false,
+    "_MaskReceiveDistort": false,
+    "_MaskTilingOffset": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "_MaskUVAnim": [
+      0,
+      0
+    ],
+    "_RimColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_RimArea": 0.5,
+    "_RimSoft": 0.5,
+    "_RimReverse": false,
+    "_RimAdditive": false,
+    "_ReceiveFog": true,
+    "_AdditiveFog": false,
+    "_EnableSoftParticle": true,
+    "defines": [
+      "EnableDissolve"
+    ]
+  }
+}

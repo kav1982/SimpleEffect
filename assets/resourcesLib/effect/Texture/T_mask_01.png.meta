@@ -1,0 +1,15 @@
+{
+  "uuid": "85e8b550-c79e-4205-b1f5-da6bedf1c57a",
+  "importer": {
+    "sRGB": true,
+    "alphaChannel": true,
+    "mipmapFilter": 1,
+    "npot": 1,
+    "platformAndroid": {
+      "format": "ASTC_8X8"
+    },
+    "platformIOS": {
+      "format": "ASTC_8X8"
+    }
+  }
+}

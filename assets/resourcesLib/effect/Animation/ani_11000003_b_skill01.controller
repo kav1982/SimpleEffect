@@ -1,0 +1,53 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "FX_xuanming_skill_hit_02",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 550,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        },
+        {
+          "x": 626,
+          "y": 256,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "ani_11000003_b_skill01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "48fb2e1f-72fa-4975-a070-9fc0a22fe709"
+          }
+        }
+      ],
+      "defaultWeight": 1
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

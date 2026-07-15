@@ -1,0 +1,44 @@
+{
+  "GamePanel": {
+    "muted": false,
+    "scale": 1,
+    "scale2": 0.4600003923688616,
+    "dimension": {
+      "name": "Game",
+      "x": 720,
+      "y": 1584
+    },
+    "orientation": false
+  },
+  "InspectorPanel": {
+    "previewPanelHeight": 266
+  },
+  "ProjectPanel": {
+    "expandedNodes": [
+      "",
+      "libs",
+      "resources",
+      "Scene"
+    ],
+    "twoColumn": false,
+    "firstColumnWidth": 289,
+    "iconScale": 0,
+    "selected": "9b931ecf-fde9-44dd-acf3-15f8dc807965"
+  },
+  "ConsolePanel": {
+    "collapse": true
+  },
+  "BuildSettingsPanel": {
+    "platform": "common"
+  },
+  "playButtonBehavior": "current",
+  "playUsingHttps": false,
+  "SelectResourceDialog": {
+    "iconScale": 0,
+    "previewPanelHeight": 202,
+    "x": 1076,
+    "y": 81,
+    "width": 635,
+    "height": 656
+  }
+}

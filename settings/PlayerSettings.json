@@ -1,0 +1,17 @@
+{
+  "resolution": {
+    "designWidth": 720,
+    "designHeight": 1584
+  },
+  "modules": {
+    "laya.d3": true,
+    "laya.ui": true,
+    "laya.physics3D": true,
+    "laya.spine": true
+  },
+  "physics3dModule": "custom",
+  "physics3dModuleCustom": "libs/Cannon/laya.cannon.js",
+  "splash": {
+    "fit": "center"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "_$ver": 1,
+  "_$id": "1nr9x3fy4n",
+  "_$type": "Sprite3D",
+  "name": "preCompileShaderPrefab",
+  "_$child": [
+    {
+      "_$id": "etrukk6u",
+      "_$type": "Sprite3D",
+      "name": "Quad",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "7e9b0d09-b83c-425d-adf1-3d319f026e38",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "sharedMaterials": [
+            {
+              "_$uuid": "3580d645-439a-4a2b-a26e-a7e3c26cb79f",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "9c8e211c-cd16-4f90-93f5-aa51c75c4cbf",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "9d9178ae-174d-42c2-9129-fed248a436d0",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "49d71329-0065-41dc-87c2-ed5e152dba8f",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "2c0ccdff-7565-4d66-a849-43a7d1e08744",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "6e20a33a-6411-4f74-a2cc-cd9f37bd0238",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "d8d25421-8091-485e-ad8c-bd380e9d4cdb",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "3d804bda-6a46-4de0-b386-d4afb5c91ae5",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "h2jtdgif",
+      "_$type": "Sprite3D",
+      "name": "Particle3D",
+      "_$comp": [
+        {
+          "_$type": "ShurikenParticleRenderer",
+          "sharedMaterials": [
+            {
+              "_$uuid": "e80ae728-73a5-45cd-986e-9181e61c1825",
+              "_$type": "Material"
+            }
+          ],
+          "_particleSystem": {
+            "_isPlaying": true,
+            "looping": false,
+            "startSizeConstant": 0.5,
+            "startSizeConstantSeparate": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "startSizeConstantMinSeparate": {
+              "_$type": "Vector3"
+            },
+            "startSizeConstantMaxSeparate": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "startRotationConstantSeparate": {
+              "_$type": "Vector3"
+            },
+            "startRotationConstantMinSeparate": {
+              "_$type": "Vector3"
+            },
+            "startRotationConstantMaxSeparate": {
+              "_$type": "Vector3"
+            },
+            "startColorConstant": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": 1
+            },
+            "startColorConstantMin": {
+              "_$type": "Vector4"
+            },
+            "startColorConstantMax": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": 1
+            },
+            "maxParticles": 100,
+            "randomSeed": {
+              "_$type": "Uint32Array",
+              "value": [
+                0
+              ]
+            },
+            "emission": {
+              "emissionRate": 1
+            },
+            "shape": {
+              "_$type": "SphereShape"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

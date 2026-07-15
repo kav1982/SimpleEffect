@@ -1,0 +1,3020 @@
+[
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKTANGENTUV",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUV",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDissolve",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDistortEnableDissolve",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATEROTATIONOVERLIFETIMESEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMEROTATIONOVERLIFETIMESEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUV",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESSEPERATESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDistortEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATETEXTURESHEETANIMATIONRANDOMCURVERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESRENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVUseAnimationSheetEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UseAnimationSheet",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVUseAnimationSheet",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UseAnimationSheet"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "BakeMeshInstance00ENUNIFORMBLOCKGPU_INSTANCEUV1ZHFOG",
+        "shaderName": "BakeMeshInstance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ALPHATESTENUNIFORMBLOCKGPU_INSTANCETANGENTUVZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "TANGENT",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ALPHATESTENUNIFORMBLOCKTANGENTUV",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKGPU_INSTANCETANGENTUVZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "TANGENT",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SpriteInstance00ALPHATESTENUNIFORMBLOCKGPU_INSTANCEZHFOG",
+        "shaderName": "SpriteInstance",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SpriteInstance00ENUNIFORMBLOCKGPU_INSTANCEZHFOG",
+        "shaderName": "SpriteInstance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Effect00ENUNIFORMBLOCKBONEUVALBEDOTEXTUREEnableGradient",
+        "shaderName": "SimpleCharacter_Effect",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "ALBEDOTEXTURE",
+            "EnableGradient"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUVEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSPHERHBILLBOARDEnableDistortEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SPHERHBILLBOARD",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDistortEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOGEnableRim",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVSUBTEXTURE",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDistort",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIME",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESSPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATETEXTURESHEETANIMATIONRANDOMCURVERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKTEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKTEXTURESHEETANIMATIONRANDOMCURVERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ALPHATESTENUNIFORMBLOCKUVUV1ZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESHEnableDistortEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00Gamma_u_AlbedoTextureENUNIFORMBLOCKUV",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDissolveEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSPHERHBILLBOARDEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "SPHERHBILLBOARD",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMETEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIME",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATESTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDistortEnableDissolveEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSPHERHBILLBOARDEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "SPHERHBILLBOARD",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOGEnableRim",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKTEXTURESHEETANIMATIONRANDOMCURVESTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVZHFOGEnableRim",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "ZHFOG",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVUV1ZHFOGEnableRim",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "UV1",
+            "ZHFOG",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSTRETCHEDBILLBOARDEnableDistortEnableDissolve",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "STRETCHEDBILLBOARD",
+            "EnableDistort",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSTRETCHEDBILLBOARDEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "STRETCHEDBILLBOARD",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVSUBTEXTURE",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARDEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVEnableDistort",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVEnableDistortEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVSUBTEXTUREEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESHEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMEROTATIONOVERLIFETIMETEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "ROTATIONOVERLIFETIME",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMETEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIME",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMEHORIZONTALBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIME",
+            "HORIZONTALBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESHORIZONTALBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "HORIZONTALBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIME",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "PARTICLESHURIKEN00ENUNIFORMBLOCKSPHERHBILLBOARDTINTCOLOR",
+        "shaderName": "PARTICLESHURIKEN",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SPHERHBILLBOARD",
+            "TINTCOLOR"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ALPHATESTENUNIFORMBLOCKBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESHEnableDistortEnableDissolveEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATEROTATIONOVERLIFETIMESEPERATERENDERMODE_MESHEnableDistortEnableDissolve",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH",
+            "EnableDistort",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDistortEnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATETEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKGPU_INSTANCETANGENTUVUV1ZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00Gamma_u_AlbedoTextureENUNIFORMBLOCKUVEnableDistortEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDistort",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00Gamma_u_AlbedoTextureENUNIFORMBLOCKUVEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVESTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESTEXTURESHEETANIMATIONRANDOMCURVESTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDistortEnableDissolveEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMETEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIME",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKTANGENTUVZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKGPU_INSTANCEUV",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESRENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSPHERHBILLBOARDEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "SPHERHBILLBOARD",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ALPHATESTENUNIFORMBLOCKGPU_INSTANCETANGENTUV",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "TANGENT",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKTANGENTUVUV1COLORZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "COLOR",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKGPU_INSTANCETANGENTUVUV1COLORZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "COLOR",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESSTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMETEXTURESHEETANIMATIONRANDOMCURVESPHERHBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "SPHERHBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESRENDERMODE_MESHEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "RENDERMODE_MESH",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Effect00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1EnableRimEnableGradient",
+        "shaderName": "SimpleCharacter_Effect",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "EnableRim",
+            "EnableGradient"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKSIZEOVERLIFETIMERANDOMCURVESSEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKGamma_u_textureVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "Gamma_u_texture",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATERENDERMODE_MESHEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "RENDERMODE_MESH",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKVELOCITYOVERLIFETIMERANDOMCURVERANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATESTRETCHEDBILLBOARDEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "VELOCITYOVERLIFETIMERANDOMCURVE",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "STRETCHEDBILLBOARD",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESHORIZONTALBILLBOARDEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "HORIZONTALBILLBOARD",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKGamma_u_textureRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESROTATIONOVERLIFETIMESEPERATERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "Gamma_u_texture",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVES",
+            "ROTATIONOVERLIFETIMESEPERATE",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDistortSUBTEXTURE",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATETEXTURESHEETANIMATIONRANDOMCURVESTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "TEXTURESHEETANIMATIONRANDOMCURVE",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESIZEOVERLIFETIMERANDOMCURVESSEPERATEROTATIONOVERLIFETIMERENDERMODE_MESH",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "SIZEOVERLIFETIMERANDOMCURVESSEPERATE",
+            "ROTATIONOVERLIFETIME",
+            "RENDERMODE_MESH"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKRANDOMCOLOROVERLIFETIMESTRETCHEDBILLBOARD",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "RANDOMCOLOROVERLIFETIME",
+            "STRETCHEDBILLBOARD"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONEUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ALPHATESTENUNIFORMBLOCKBONEUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ALPHATESTENUNIFORMBLOCKBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONESIMPLEBONEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance02ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUV",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance02ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONEUV",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKBONEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance02ENUNIFORMBLOCKBONEUVZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEUVEnableDissolve",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEUVZHFOGEnableDissolve",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG",
+            "EnableDissolve"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONEUVUV1EnableDissolve",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONEUVUV1ZHFOGEnableDissolve",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ZHFOG",
+            "EnableDissolve"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1EnableDissolve",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOGEnableDissolve",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG",
+            "EnableDissolve"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKUVUV1",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance02ENUNIFORMBLOCKUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONESIMPLEBONEGPU_INSTANCEUVZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "GPU_INSTANCE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ALPHATESTENUNIFORMBLOCKBONESIMPLEBONEUVZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUVUV1",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ALPHATESTENUNIFORMBLOCKGPU_INSTANCEUVUV1ZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONESIMPLEBONEUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONESIMPLEBONEUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKBONEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKBONEUV",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ALPHATESTENUNIFORMBLOCKBONESIMPLEBONEUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ALPHATESTENUNIFORMBLOCKBONESIMPLEBONEUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Effect00ENUNIFORMBLOCKBONESIMPLEBONEUVALBEDOTEXTURE",
+        "shaderName": "SimpleCharacter_Effect",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ALBEDOTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCK",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ALPHATESTENUNIFORMBLOCKUVEnableDistortEnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVUV1",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ALPHATESTENUNIFORMBLOCKUV",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ALPHATESTENUNIFORMBLOCKUVEnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Effect00ENUNIFORMBLOCKBONEUVUV1ALBEDOTEXTUREEnableRimEnableGradient",
+        "shaderName": "SimpleCharacter_Effect",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "ALBEDOTEXTURE",
+            "EnableRim",
+            "EnableGradient"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKTANGENTUVUV1ZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter00ENUNIFORMBLOCKTANGENTUVUV1",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter01ENUNIFORMBLOCKTANGENTUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter02ENUNIFORMBLOCKTANGENTUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Effect00ENUNIFORMBLOCKTANGENTUVUV1ALBEDOTEXTURE",
+        "shaderName": "SimpleCharacter_Effect",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ALBEDOTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKTANGENTUVUV1",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance01ENUNIFORMBLOCKTANGENTUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 1,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance02ENUNIFORMBLOCKTANGENTUVUV1ZHFOG",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "ZHFOG"
+        ],
+        "passIndex": 2,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKGPU_INSTANCETANGENTUV",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "TANGENT",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKTANGENTUVCOLORZHFOG",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "COLOR",
+            "ZHFOG"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "CurveMap00ENUNIFORMBLOCKTANGENTUVUV1",
+        "shaderName": "CurveMap",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00Gamma_u_AlbedoTextureENUNIFORMBLOCKGPU_INSTANCEUVEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00Gamma_u_AlbedoTextureENUNIFORMBLOCKGPU_INSTANCEUVSUBTEXTUREEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableRim",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00Gamma_u_AlbedoTextureENUNIFORMBLOCKGPU_INSTANCEUVEnableDistortEnableDissolveEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVUseAnimationSheet",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "UseAnimationSheet"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDistortEnableDissolveSUBTEXTUREEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVEnableDissolveSUBTEXTURE",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDissolve",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ENUNIFORMBLOCKGPU_INSTANCEUVUseAnimationSheetEnableMask",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "UseAnimationSheet",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ALPHATESTENUNIFORMBLOCKGPU_INSTANCEUVEnableDissolve",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00Gamma_u_AlbedoTextureENUNIFORMBLOCKGPU_INSTANCEUVEnableDissolveUseAnimationSheet",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "EnableDissolve",
+            "UseAnimationSheet"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00ALPHATESTENUNIFORMBLOCKGPU_INSTANCEUV",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "ALPHATEST",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "MeshEffectEntity00Gamma_u_AlbedoTextureENUNIFORMBLOCKGPU_INSTANCEUVUseAnimationSheet",
+        "shaderName": "MeshEffectEntity",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "GPU_INSTANCE",
+            "UV",
+            "UseAnimationSheet"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableDistortEnableDissolveEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableDistortEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKGamma_u_textureEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "Gamma_u_texture",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUVEnableDistort",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUV",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Instance00ENUNIFORMBLOCKBONESIMPLEBONEUVDisableOutlinePass",
+        "shaderName": "SimpleCharacter_Instance",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "DisableOutlinePass"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1EnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKGamma_u_texture",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "Gamma_u_texture"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1EnableDistortSUBTEXTURE",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "EnableDistort",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONESIMPLEBONEUVUV1EnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "UV1",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableDistort",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableDissolve",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDistortSUBTEXTURE",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SimpleCharacter_Effect00ENUNIFORMBLOCKBONESIMPLEBONEUVALBEDOTEXTUREEnableRim",
+        "shaderName": "SimpleCharacter_Effect",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "SIMPLEBONE",
+            "UV",
+            "ALBEDOTEXTURE",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDissolveEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1EnableRim",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "EnableRim"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVSUBTEXTUREEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1SUBTEXTUREEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableDissolveEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKEnableDistortEnableDissolve",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "EnableDistort",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "ParticleEffectCommon00ENUNIFORMBLOCKGamma_u_textureEnableDistortEnableMask",
+        "shaderName": "ParticleEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "Gamma_u_texture",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00Gamma_u_AlbedoTextureENUNIFORMBLOCKUVUseAnimationSheet",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "Gamma_u_AlbedoTexture",
+            "ENUNIFORMBLOCK",
+            "UV",
+            "UseAnimationSheet"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUVUV1EnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "UV1",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUV",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1EnableDistortEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDistortEnableDissolveEnableRimEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableRim",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUVSUBTEXTUREEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVEnableDistortEnableDissolveSUBTEXTUREEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "SUBTEXTURE",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVUV1UseAnimationSheet",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "UV1",
+            "UseAnimationSheet"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKTANGENTUVEnableDistortEnableDissolveEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "TANGENT",
+            "UV",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVCOLOREnableDistort",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "COLOR",
+            "EnableDistort"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVCOLOREnableDistortEnableDissolveEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "COLOR",
+            "EnableDistort",
+            "EnableDissolve",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVCOLOREnableDistortEnableMask",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "COLOR",
+            "EnableDistort",
+            "EnableMask"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKUVEnableDissolveSUBTEXTURE",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "UV",
+            "EnableDissolve",
+            "SUBTEXTURE"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    },
+    {
+        "id": "SceneEffectCommon00ENUNIFORMBLOCKBONEUVEnableDissolve",
+        "shaderName": "SceneEffectCommon",
+        "defineNames": [
+            "ENUNIFORMBLOCK",
+            "BONE",
+            "UV",
+            "EnableDissolve"
+        ],
+        "passIndex": 0,
+        "subShaderIndex": 0
+    }
+]

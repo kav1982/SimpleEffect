@@ -1,0 +1,56 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "A_wjg_skill02",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 209,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        },
+        {
+          "x": 813.515625,
+          "y": 239.921875,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "ani_11000002_b_skill03",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "bbe3c086-a16d-4d28-a1f9-ff09e1afd09f"
+          }
+        }
+      ],
+      "defaultWeight": 1,
+      "stageX": 33.2,
+      "stageY": 46.066666666666634,
+      "stageScale": 0.8
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

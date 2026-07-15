@@ -1,0 +1,142 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "type": "SceneEffectCommon",
+    "s_Cull": 2,
+    "s_Blend": 0,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 1,
+    "s_DepthTest": 1,
+    "s_DepthWrite": false,
+    "alphaTest": false,
+    "alphaTestValue": 0.5,
+    "renderQueue": 3000,
+    "textures": [
+      {
+        "name": "u_AlbedoTexture",
+        "constructParams": [
+          256,
+          256,
+          3,
+          true,
+          false
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 4
+        },
+        "path": "res://9bc752ee-05b9-466e-bb05-2e735ab42974"
+      },
+      {
+        "name": "_DistortMap",
+        "constructParams": [
+          256,
+          256,
+          5,
+          true,
+          false
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 4
+        },
+        "path": "res://31323953-eafd-4421-baa8-e65963ea24a4"
+      },
+      {
+        "name": "_MaskMap",
+        "constructParams": [
+          128,
+          128,
+          3,
+          true,
+          false
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 4
+        },
+        "path": "res://85e8b550-c79e-4205-b1f5-da6bedf1c57a"
+      }
+    ],
+    "materialRenderMode": 3,
+    "u_AlbedoColor": [
+      0.2901961,
+      0.7450981,
+      0.6392157,
+      1
+    ],
+    "_DissolveEdgeColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_RimColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "u_TilingOffset": [
+      0.59,
+      0.5,
+      0.53,
+      0
+    ],
+    "_AlbedoTextureUVAnim": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "u_SheetParam": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "_DistortParam": [
+      0,
+      0.08,
+      0.49,
+      0.54
+    ],
+    "_DissolveParam": [
+      0,
+      0,
+      0.5,
+      0.5
+    ],
+    "_DissolveParam2": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "u_AlphaTestValue": 0.5,
+    "u_AlbedoColorStrength": 1.1,
+    "_AlbedoReceiveDistort": 1,
+    "_EnableAnimControl": 0,
+    "u_SheetProgress": 0,
+    "_DissolveReceiveDistort": 1,
+    "_MaskChannelA": 0,
+    "_MaskReceiveDistort": 0,
+    "_RimArea": 0.5,
+    "_RimSoft": 0.5,
+    "_RimReverse": 0,
+    "_RimAdditive": 0,
+    "CurveWorld": 1,
+    "_ReceiveFog": 1,
+    "_AdditiveFog": 0,
+    "defines": [
+      "EnableDistort",
+      "EnableMask"
+    ]
+  }
+}
