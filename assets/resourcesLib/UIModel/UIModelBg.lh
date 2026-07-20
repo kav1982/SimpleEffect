@@ -1,0 +1,36 @@
+{
+  "_$ver": 1,
+  "_$id": "wyatvkt2",
+  "_$type": "Sprite3D",
+  "name": "UIModelBg",
+  "transform": {
+    "localPosition": {
+      "_$type": "Vector3",
+      "y": 0.33
+    },
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 1.5,
+      "y": 1.5,
+      "z": 1.5
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "MeshFilter",
+      "sharedMesh": {
+        "_$uuid": "7e9b0d09-b83c-425d-adf1-3d319f026e38",
+        "_$type": "Mesh"
+      }
+    },
+    {
+      "_$type": "MeshRenderer",
+      "sharedMaterials": [
+        {
+          "_$uuid": "3372b17d-9f74-460e-b3e2-02e65047a08b",
+          "_$type": "Material"
+        }
+      ]
+    }
+  ]
+}
