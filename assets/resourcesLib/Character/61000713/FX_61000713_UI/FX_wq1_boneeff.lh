@@ -1,0 +1,101 @@
+{
+  "_$ver": 1,
+  "_$id": "21xqo2ll",
+  "_$type": "Sprite3D",
+  "name": "FX_wq1_boneeff",
+  "_$child": [
+    {
+      "_$id": "gqhqv5gx",
+      "_$type": "Sprite3D",
+      "name": "eff",
+      "_$child": [
+        {
+          "_$id": "zlzyrydk",
+          "_$type": "Sprite3D",
+          "name": "jian_glow",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 0.12639823286072271,
+              "y": -0.0053746450191146655,
+              "z": 0.002805534117751002
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": -6.375535770112526e-9,
+              "y": -1.2699352495034031e-8,
+              "z": 0.7066253050959691,
+              "w": 0.7075879296582357
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.35,
+              "y": 0.7,
+              "z": 0.7
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "54d9307a-504f-4fe4-9046-3dbfdd25d234",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "y7fkmsr0",
+          "_$type": "Sprite3D",
+          "name": "glow_lg",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 0.19737453147531148,
+              "y": -0.0013715119992502856,
+              "z": 0.00062813707577411
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "z": 0.7071067811865475,
+              "w": 0.7071067811865476
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.5,
+              "y": 1,
+              "z": 0.5
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "339b90aa-4316-4139-9638-c2f6bc7997da",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "f0909153-89dc-499d-8ed4-2fa019b506dd",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

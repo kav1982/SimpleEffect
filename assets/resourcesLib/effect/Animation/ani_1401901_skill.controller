@@ -1,0 +1,55 @@
+{
+  "_$type": "Animator",
+  "id": 368451,
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "skill",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "name": "ani_1401901_skill",
+          "clip": {
+            "_$uuid": "8156a5b1-5fad-4a6b-915d-6dca94902aac"
+          },
+          "loop": -1,
+          "speed": 1,
+          "clipEnd": 1,
+          "x": 464.1604901108813,
+          "y": 308.0794946689792,
+          "id": "0",
+          "_isLooping": 2
+        },
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 746,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        }
+      ],
+      "defaultWeight": 1
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

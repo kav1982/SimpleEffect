@@ -1,0 +1,47 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 741
+        },
+        {
+          "x": 496,
+          "y": 214,
+          "_isLooping": 1,
+          "id": "0",
+          "name": "chibang_2_you_new",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "d9bdd898-4856-4e64-9c23-87b4a2606ec8"
+          }
+        }
+      ],
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1
+    }
+  ],
+  "layerW": 150
+}

@@ -1,0 +1,566 @@
+{
+  "_$ver": 1,
+  "_$id": "fdsouetc",
+  "_$type": "Sprite3D",
+  "name": "FX_10015003_1_lit",
+  "_$child": [
+    {
+      "_$id": "wh3m8ksr",
+      "_$type": "Sprite3D",
+      "name": "eff",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 0.2
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.7,
+          "y": 0.7,
+          "z": 0.7
+        }
+      },
+      "_$child": [
+        {
+          "_$id": "98nj28eu",
+          "_$type": "Sprite3D",
+          "name": "b",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "y": 0.04958616942167282,
+              "z": -3.7538974595463515e-8
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": -0.7071067811865475,
+              "w": 0.7071067811865476
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 2.04999,
+              "y": 2.04999,
+              "z": 2.04999
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "1fecd760-7242-49bf-bb5a-77d8695df1af",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "z0e3sxp2",
+          "_$type": "Sprite3D",
+          "name": "andi",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.008698162129425868,
+              "y": 0.04958617088146422,
+              "z": -2.0097843389521586e-9
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": -0.7071067811865475,
+              "w": 0.7071067811865476
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 2.25,
+              "y": 2.25,
+              "z": 2.25
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "d2338ada-0567-49be-8da0-2d767cf1d9eb",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "opuaozuj",
+          "_$type": "Sprite3D",
+          "name": "tuteng",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.02081410214304924,
+              "y": 0.049586170510797944,
+              "z": -3.753897460665764e-8
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": -0.7071067811865475,
+              "w": 0.7071067811865476
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 1.8,
+              "y": 1.8,
+              "z": 1.8
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "09461dd6-6238-4508-9c1b-cdea86a6c6fa",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "5h33h33f",
+          "_$type": "Sprite3D",
+          "name": "yuanhuan02",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.03589655050730123,
+              "y": 0.09432183974611341,
+              "z": 0.002430533937541668
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": 0.28779445001645465,
+              "y": -0.6458903609364195,
+              "z": -0.6458903596986876,
+              "w": -0.2877944395526921
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.3,
+              "y": 0.3,
+              "z": 0.3
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "ff38b2f0-8a52-4baf-8381-566998206976",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "d3d4934a-673b-482b-9a9d-804a04cfcca4",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "v7i47fym",
+          "_$type": "Sprite3D",
+          "name": "yuanhuan02_glow",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.03589655050730123,
+              "y": 0.09432183974611341,
+              "z": 0.002430533937541668
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": 0.287794452133252,
+              "y": -0.6458903599932213,
+              "z": -0.6458903587554897,
+              "w": -0.2877944416694895
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.3,
+              "y": 0.3,
+              "z": 0.3
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "ff38b2f0-8a52-4baf-8381-566998206976",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "d1bcec79-7fa6-4f82-a81e-7b4c1986f33e",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "n97e9vel",
+          "_$type": "Sprite3D",
+          "name": "yuanhuan03",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.035896525672033164,
+              "y": 0.09432184595493043,
+              "z": 0.002430533937541668
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": 0.6067930581234534,
+              "y": 0.3630457112045805,
+              "z": 0.36304570066789504,
+              "w": -0.6067930581472608
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.3,
+              "y": 0.3,
+              "z": 0.3
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "ff38b2f0-8a52-4baf-8381-566998206976",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "d3d4934a-673b-482b-9a9d-804a04cfcca4",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "rx9qu0uh",
+          "_$type": "Sprite3D",
+          "name": "yuanhuan03_glow",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.0358965008367651,
+              "y": 0.09432184595493043,
+              "z": 0.002430533937541668
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": -0.6067930607266165,
+              "y": -0.3630457088609928,
+              "z": -0.3630456986420808,
+              "w": 0.6067930581583209
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.3,
+              "y": 0.3,
+              "z": 0.3
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "ff38b2f0-8a52-4baf-8381-566998206976",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "d1bcec79-7fa6-4f82-a81e-7b4c1986f33e",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "ez55wu3r",
+          "_$type": "Sprite3D",
+          "name": "tuteng_lg",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -0.02899836864389327,
+              "y": 0.06526722171863203,
+              "z": 0.0021181250814733127
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "x": -0.7062778772509275,
+              "y": 0.03422806021269523,
+              "z": 0.03422806021269511,
+              "w": 0.7062778772509275
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "ShurikenParticleRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "45902157-b8f8-4502-bffd-b98dc79fe7c5",
+                  "_$type": "Material"
+                }
+              ],
+              "renderMode": 4,
+              "mesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              },
+              "_particleSystem": {
+                "_isPlaying": true,
+                "duration": 4,
+                "startLifetimeConstant": 3,
+                "startSpeedConstant": 0,
+                "startSizeConstant": 1.8,
+                "startSizeConstantSeparate": {
+                  "_$type": "Vector3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "startSizeConstantMinSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startSizeConstantMaxSeparate": {
+                  "_$type": "Vector3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "startRotationConstantSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startRotationConstantMinSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startRotationConstantMaxSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startColorConstant": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 0.4210550315315657,
+                  "z": 0.3410852713178295,
+                  "w": 0.7843137254901961
+                },
+                "startColorConstantMin": {
+                  "_$type": "Vector4"
+                },
+                "startColorConstantMax": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1,
+                  "w": 1
+                },
+                "scaleMode": 0,
+                "maxParticles": 1,
+                "randomSeed": {
+                  "_$type": "Uint32Array",
+                  "value": [
+                    0
+                  ]
+                },
+                "emission": {
+                  "emissionRate": 0,
+                  "_bursts": [
+                    {
+                      "_$type": "Burst",
+                      "_minCount": 1,
+                      "_maxCount": 1
+                    }
+                  ]
+                },
+                "colorOverLifetime": {
+                  "_$type": "ColorOverLifetime",
+                  "enable": true,
+                  "_color": {
+                    "_$type": "GradientColor",
+                    "_type": 1,
+                    "_constant": {
+                      "_$type": "Vector4",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1,
+                      "w": 1
+                    },
+                    "_constantMin": {
+                      "_$type": "Vector4",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1,
+                      "w": 1
+                    },
+                    "_constantMax": {
+                      "_$type": "Vector4",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1,
+                      "w": 1
+                    },
+                    "_gradient": {
+                      "_$type": "Gradient",
+                      "_alphaElements": {
+                        "_$type": "Float32Array",
+                        "value": [
+                          0,
+                          0,
+                          0.3885542154312134,
+                          1,
+                          1,
+                          0
+                        ]
+                      },
+                      "_colorAlphaKeysCount": 3,
+                      "_rgbElements": {
+                        "_$type": "Float32Array",
+                        "value": [
+                          0,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      "_colorRGBKeysCount": 2
+                    },
+                    "_gradientMin": {
+                      "_$type": "Gradient",
+                      "_alphaElements": {
+                        "_$type": "Float32Array",
+                        "value": [
+                          0,
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      "_colorAlphaKeysCount": 2,
+                      "_rgbElements": {
+                        "_$type": "Float32Array",
+                        "value": [
+                          0,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      "_colorRGBKeysCount": 2
+                    },
+                    "_gradientMax": {
+                      "_$type": "Gradient",
+                      "_alphaElements": {
+                        "_$type": "Float32Array",
+                        "value": [
+                          0,
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      "_colorAlphaKeysCount": 2,
+                      "_rgbElements": {
+                        "_$type": "Float32Array",
+                        "value": [
+                          0,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      "_colorRGBKeysCount": 2
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

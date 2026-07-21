@@ -1,0 +1,15 @@
+{
+  "uuid": "3fdce1d3-09e5-4d6c-aea2-349cf3db2e36",
+  "importer": {
+    "sRGB": true,
+    "generateMipmap": true,
+    "platformAndroid": {
+      "format": "ASTC_8X8",
+      "quality": 1
+    },
+    "platformIOS": {
+      "format": "ASTC_8X8",
+      "quality": 1
+    }
+  }
+}

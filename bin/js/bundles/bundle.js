@@ -2112,12 +2112,177 @@
     regClass9("d85aaf4e-626d-4987-b47a-1cf48232ec95", "../src/Game/Engine/Editor/EditorSceneSet.ts")
   ], EditorSceneSet);
 
-  // src/Game/Engine/PostProcess/PostProcessFullScreenTintMgr.ts
+  // src/Game/Engine/Editor/EditorShowMEEntity.ts
+  var LayaEnv = Laya.LayaEnv;
+  var MeshRenderer = Laya.MeshRenderer;
   var Color9 = Laya.Color;
+  var Vector47 = Laya.Vector4;
+  var MeshFilter = Laya.MeshFilter;
+  var { regClass: regClass10, property: property10, runInEditor } = Laya;
+  var EditorShowMEEntity = class extends Laya.Script {
+    onEnable() {
+      if (LayaEnv.isPlaying) {
+      }
+    }
+    onLateUpdate() {
+      const entity = this.owner.getComponent(MeshEffectEntity);
+      if (!entity || !entity.paramMaterial || !entity.mesh)
+        return;
+      this.renderer = this.owner.getComponent(MeshRenderer);
+      if (!this.renderer) {
+        this.renderer = this.owner.addComponent(MeshRenderer);
+      }
+      this.renderer.sharedMaterial = entity.paramMaterial;
+      this.filter = this.owner.getComponent(MeshFilter);
+      if (!this.filter) {
+        this.filter = this.owner.addComponent(MeshFilter);
+      }
+      this.filter.sharedMesh = entity.mesh;
+      if (LayaEnv.isPlaying) {
+        this.renderer.enabled = false;
+        return;
+      }
+      const mat = this.renderer.sharedMaterial;
+      const col = new Color9(
+        Color9.linearToGammaSpace(entity.EntityColor.x),
+        Color9.linearToGammaSpace(entity.EntityColor.y),
+        Color9.linearToGammaSpace(entity.EntityColor.z),
+        entity.EntityColor.w
+      );
+      mat.setColor("u_AlbedoColor", col);
+      let tilingOffset = mat.getVector4("u_TilingOffset");
+      const u_TilingOffset = new Vector47(
+        tilingOffset ? tilingOffset.x : 1,
+        tilingOffset ? tilingOffset.y : 1,
+        entity.EntityTilingOffset.x,
+        entity.EntityTilingOffset.y
+      );
+      mat.setVector4("u_TilingOffset", u_TilingOffset);
+      let maskTilingOffset = mat.getVector4("_MaskTilingOffset");
+      const _MaskTilingOffset = new Vector47(
+        maskTilingOffset ? maskTilingOffset.x : 1,
+        maskTilingOffset ? maskTilingOffset.y : 1,
+        entity.EntityTilingOffset.z,
+        entity.EntityTilingOffset.w
+      );
+      mat.setVector4("_MaskTilingOffset", _MaskTilingOffset);
+      let dissolveParam = mat.getVector4("_DissolveParam");
+      const _DissolveParam = new Vector47(
+        dissolveParam ? dissolveParam.x : 0,
+        dissolveParam ? dissolveParam.y : 0,
+        entity.EntityParam1.x,
+        dissolveParam ? dissolveParam.w : 0.5
+      );
+      mat.setVector4("_DissolveParam", _DissolveParam);
+      let dissolveParam2 = mat.getVector4("_DissolveParam2");
+      const _DissolveParam2 = new Vector47(
+        entity.EntityParam1.y,
+        dissolveParam2 ? dissolveParam2.y : 0,
+        dissolveParam2 ? dissolveParam2.z : 1,
+        dissolveParam2 ? dissolveParam2.w : 1
+      );
+      mat.setVector4("_DissolveParam2", _DissolveParam2);
+      let AlbedoTextureUVAnim = mat.getVector4("_AlbedoTextureUVAnim");
+      const _AlbedoTextureUVAnim = new Vector47(
+        AlbedoTextureUVAnim ? AlbedoTextureUVAnim.x : 0,
+        AlbedoTextureUVAnim ? AlbedoTextureUVAnim.y : 0,
+        entity.EntityParam1.z,
+        AlbedoTextureUVAnim ? AlbedoTextureUVAnim.w : 0
+      );
+      mat.setVector4("_AlbedoTextureUVAnim", _AlbedoTextureUVAnim);
+      mat.setFloat("u_SheetProgress", entity.EntityParam1.w);
+    }
+    onDisable() {
+      var _a, _b;
+      if (LayaEnv.isPlaying) {
+        return;
+      }
+      (_a = this.renderer) == null ? void 0 : _a.destroy();
+      (_b = this.filter) == null ? void 0 : _b.destroy();
+    }
+  };
+  __name(EditorShowMEEntity, "EditorShowMEEntity");
+  EditorShowMEEntity = __decorateClass([
+    regClass10("5c70f482-14ad-4306-9049-94b664beeb47", "../src/Game/Engine/Editor/EditorShowMEEntity.ts"),
+    runInEditor
+  ], EditorShowMEEntity);
+
+  // src/Game/Engine/Editor/EditorShowMEInstance.ts
+  var LayaEnv2 = Laya.LayaEnv;
+  var MeshRenderer2 = Laya.MeshRenderer;
+  var MeshFilter2 = Laya.MeshFilter;
+  var { regClass: regClass11, property: property11, runInEditor: runInEditor2 } = Laya;
+  var EditorShowMEInstance = class extends Laya.Script {
+    constructor() {
+      super(...arguments);
+      this.autoSetInstance = false;
+      this.editorShowEntitys = [];
+    }
+    onEnable() {
+      if (LayaEnv2.isPlaying) {
+        return;
+      }
+      if (!this.owner.getComponent(MeshEffectInstance))
+        return;
+      const entitys = RenderHelper.GetComponentsInChild(this.owner, MeshEffectEntity);
+      this.editorShowEntitys = [];
+      for (let entity of entitys) {
+        let edEntity = entity.owner.getComponent(EditorShowMEEntity);
+        if (!edEntity) {
+          edEntity = entity.owner.addComponent(EditorShowMEEntity);
+        }
+        this.editorShowEntitys.push(edEntity);
+      }
+    }
+    onUpdate() {
+      if (!this.autoSetInstance)
+        return;
+      this.setChildInstance();
+      this.autoSetInstance = false;
+    }
+    setChildInstance() {
+      if (!this.owner.getComponent(MeshEffectInstance))
+        this.owner.addComponent(MeshEffectInstance);
+      const renderers = RenderHelper.GetComponentsInChild(this.owner, MeshRenderer2);
+      for (const renderer of renderers) {
+        const filter = renderer.owner.getComponent(MeshFilter2);
+        if (!renderer.sharedMaterial || !filter || !filter.sharedMesh) {
+          console.error(renderer.owner.name + " 物体组件信息有误！");
+          continue;
+        }
+        let entity = renderer.owner.getComponent(MeshEffectEntity);
+        if (!entity)
+          entity = renderer.owner.addComponent(MeshEffectEntity);
+        entity.mesh = filter.sharedMesh;
+        entity.paramMaterial = renderer.sharedMaterial;
+        MeshEffectEntityMaterial.getDefaultParam(entity.paramMaterial, entity.EntityColor, entity.EntityTilingOffset, entity.EntityParam1);
+      }
+      this.onEnable();
+    }
+    onDisable() {
+      if (LayaEnv2.isPlaying) {
+        return;
+      }
+      this.editorShowEntitys.forEach((value) => {
+        value == null ? void 0 : value.destroy();
+      });
+    }
+  };
+  __name(EditorShowMEInstance, "EditorShowMEInstance");
+  __decorateClass([
+    property11({ type: Boolean, caption: "自动添加套件" })
+  ], EditorShowMEInstance.prototype, "autoSetInstance", 2);
+  EditorShowMEInstance = __decorateClass([
+    regClass11("6bdf3cdf-c394-40e7-ac0f-cb485127d221", "../src/Game/Engine/Editor/EditorShowMEInstance.ts"),
+    runInEditor2
+  ], EditorShowMEInstance);
+
+  // src/Game/Engine/PostProcess/PostProcessFullScreenTintMgr.ts
+  var Color10 = Laya.Color;
   var _PostProcessFullScreenTintMgr = class _PostProcessFullScreenTintMgr {
     constructor() {
       this.Enable = false;
-      this.TintColor = new Color9(0.05, 0.15, 0.45, 1);
+      this.TintColor = new Color10(0.05, 0.15, 0.45, 1);
       this.Intensity = 1;
       this.FadeInTime = 0.5;
       this.FadeOutTime = 0.5;
@@ -2197,15 +2362,15 @@
   var Handler = Laya.Handler;
   var Sprite3D = Laya.Sprite3D;
   var Vector34 = Laya.Vector3;
-  var Color10 = Laya.Color;
+  var Color11 = Laya.Color;
   var Text = Laya.Text;
-  var { regClass: regClass10, property: property10 } = Laya;
+  var { regClass: regClass12, property: property12 } = Laya;
   var PhoneTestBtn = class extends Laya.Script {
     constructor() {
       super(...arguments);
       this.urls = [];
       this.createPos = new Vector34();
-      this.renderColor = new Color10(0.05, 0.15, 0.45, 1);
+      this.renderColor = new Color11(0.05, 0.15, 0.45, 1);
       this.FadeTime = 0.5;
       this.curIndex = 0;
     }
@@ -2341,53 +2506,53 @@
   };
   __name(PhoneTestBtn, "PhoneTestBtn");
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "createBtn", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "showHideBtn", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "switchBtn", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "loadAllBtn", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "btnFullScreenTint", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "btnNormalScreenTint", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "btnTintColor", 2);
   __decorateClass([
-    property10(Button)
+    property12(Button)
   ], PhoneTestBtn.prototype, "btnDesaturate", 2);
   __decorateClass([
-    property10([String])
+    property12([String])
   ], PhoneTestBtn.prototype, "urls", 2);
   __decorateClass([
-    property10(Text)
+    property12(Text)
   ], PhoneTestBtn.prototype, "urlShowText", 2);
   __decorateClass([
-    property10(Vector34)
+    property12(Vector34)
   ], PhoneTestBtn.prototype, "createPos", 2);
   __decorateClass([
-    property10(Color10)
+    property12(Color11)
   ], PhoneTestBtn.prototype, "renderColor", 2);
   __decorateClass([
-    property10(Number)
+    property12(Number)
   ], PhoneTestBtn.prototype, "FadeTime", 2);
   PhoneTestBtn = __decorateClass([
-    regClass10("77053a75-dfb0-4f47-8c2c-eff6a8a9472e", "../src/Game/Engine/Editor/PhoneTestBtn.ts")
+    regClass12("77053a75-dfb0-4f47-8c2c-eff6a8a9472e", "../src/Game/Engine/Editor/PhoneTestBtn.ts")
   ], PhoneTestBtn);
 
   // src/Game/Engine/Editor/RenderParamShow.ts
   var Text2 = Laya.Text;
   var LayaGL2 = Laya.LayaGL;
   var RenderStatisticsInfo = Laya.RenderStatisticsInfo;
-  var { regClass: regClass11, property: property11 } = Laya;
+  var { regClass: regClass13, property: property13 } = Laya;
   var RenderParamShow = class extends Laya.Script {
     constructor() {
       super(...arguments);
@@ -2407,14 +2572,14 @@
   };
   __name(RenderParamShow, "RenderParamShow");
   __decorateClass([
-    property11(Text2)
+    property13(Text2)
   ], RenderParamShow.prototype, "drawCallText", 2);
   RenderParamShow = __decorateClass([
-    regClass11("d6fe8d2c-0198-4310-8963-e06e273872d8", "../src/Game/Engine/Editor/RenderParamShow.ts")
+    regClass13("d6fe8d2c-0198-4310-8963-e06e273872d8", "../src/Game/Engine/Editor/RenderParamShow.ts")
   ], RenderParamShow);
 
   // src/Game/Engine/Tools/DelayActive.ts
-  var { regClass: regClass12, property: property12 } = Laya;
+  var { regClass: regClass14, property: property14 } = Laya;
   var DelayActive = class extends Laya.Script {
     constructor() {
       super(...arguments);
@@ -2469,14 +2634,14 @@
   };
   __name(DelayActive, "DelayActive");
   __decorateClass([
-    property12(Number)
+    property14(Number)
   ], DelayActive.prototype, "delayTime", 2);
   DelayActive = __decorateClass([
-    regClass12("aa8cc9e4-36ce-4db8-b116-2ef6c6b10866", "../src/Game/Engine/Tools/DelayActive.ts")
+    regClass14("aa8cc9e4-36ce-4db8-b116-2ef6c6b10866", "../src/Game/Engine/Tools/DelayActive.ts")
   ], DelayActive);
 
   // src/Main.ts
-  var { regClass: regClass13, property: property13 } = Laya;
+  var { regClass: regClass15, property: property15 } = Laya;
   var Main = class extends Laya.Script {
     onStart() {
       console.log("Game start");
@@ -2484,7 +2649,7 @@
   };
   __name(Main, "Main");
   Main = __decorateClass([
-    regClass13("7bad1742-6eed-4d8d-81c0-501dc5bf03d6", "../src/Main.ts")
+    regClass15("7bad1742-6eed-4d8d-81c0-501dc5bf03d6", "../src/Main.ts")
   ], Main);
 })();
 //# sourceMappingURL=bundle.js.map

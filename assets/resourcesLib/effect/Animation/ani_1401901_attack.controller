@@ -1,0 +1,55 @@
+{
+  "_$type": "Animator",
+  "id": 359636,
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "dg_attack",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "name": "ani_1401901_attack",
+          "clip": {
+            "_$uuid": "2e285402-c700-4045-8a08-d4aec330928a"
+          },
+          "loop": -1,
+          "speed": 1,
+          "clipEnd": 1,
+          "x": 540.7848743583986,
+          "y": 271.219203229537,
+          "id": "0",
+          "_isLooping": 2
+        },
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 746,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        }
+      ],
+      "defaultWeight": 1
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

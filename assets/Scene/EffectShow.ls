@@ -370,11 +370,25 @@
                   "active": true
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "_$id": "34qudz39",
+          "_$type": "Sprite3D",
+          "name": "Effect",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "y": 0.1,
+              "z": 2.6
+            }
+          },
+          "_$child": [
             {
-              "_$id": "v85ee6pz",
-              "_$prefab": "79f795e0-98bc-49be-a86a-4f922956d9dc",
-              "name": "FX_11000002_b_skill03",
+              "_$id": "ugc3jv82",
+              "_$prefab": "1ebee574-d042-4987-b9a4-8cd808a6b6e2",
+              "name": "FX_1401902_attack",
               "active": true,
               "layer": 0,
               "transform": {

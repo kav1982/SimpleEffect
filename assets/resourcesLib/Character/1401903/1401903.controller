@@ -1,0 +1,113 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 853
+        },
+        {
+          "x": 322.24999994934,
+          "y": 437.49999993599505,
+          "_isLooping": 1,
+          "id": "0",
+          "name": "stand",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "0e46346c-7189-4d1d-8bbe-db6f88fa06b4"
+          }
+        },
+        {
+          "x": 540,
+          "y": 531.7500000907806,
+          "_isLooping": 2,
+          "id": "1",
+          "name": "attack3",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "78c171ac-7bdd-4bc4-bf48-c9f1b2357bea"
+          },
+          "soloTransitions": [
+            {
+              "id": "0",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        },
+        {
+          "x": 565,
+          "y": 313,
+          "_isLooping": 2,
+          "id": "2",
+          "name": "attack2",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "1a14c0cd-32e7-4a5d-925a-38df226bf149"
+          },
+          "soloTransitions": [
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        },
+        {
+          "x": 344,
+          "y": 303,
+          "_isLooping": 2,
+          "id": "3",
+          "name": "attack1",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "9a3f0533-6e3e-42ae-9770-966a5c461469"
+          },
+          "soloTransitions": [
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        }
+      ],
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1,
+      "stageX": -20.91428571428571,
+      "stageY": -74.88571428571424,
+      "stageScale": 0.8
+    }
+  ],
+  "layerW": 150
+}

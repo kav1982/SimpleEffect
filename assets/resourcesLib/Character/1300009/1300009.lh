@@ -1,0 +1,209 @@
+{
+  "_$ver": 1,
+  "_$id": "mdosgxgo",
+  "_$type": "Sprite3D",
+  "name": "1300009",
+  "_$comp": [
+    {
+      "_$type": "Animator",
+      "controller": {
+        "_$uuid": "48ca8e02-3810-4362-99b1-aff112746f79",
+        "_$type": "AnimationController"
+      },
+      "controllerLayers": [
+        {
+          "_$type": "AnimatorControllerLayer",
+          "name": "Base Layer",
+          "states": [
+            {
+              "_$type": "AnimatorState",
+              "name": "attack1",
+              "_isLooping": 2,
+              "clipStart": 0,
+              "clip": {
+                "_$uuid": "1e6fffb5-0bce-4f03-9673-7b63a1ebb86c",
+                "_$type": "AnimationClip"
+              },
+              "soloTransitions": []
+            }
+          ],
+          "defaultStateName": "attack1"
+        }
+      ]
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "cphe9xp4",
+      "_$type": "Sprite3D",
+      "name": "1300009",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "dfd9b60e-edca-4db5-9018-168cbf690dbb",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "SimpleSkinnedMeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "sharedMaterials": [
+            {
+              "_$uuid": "15dc1c28-08cf-4a84-b550-26eeb940f6b3",
+              "_$type": "Material"
+            }
+          ],
+          "_bones": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "rootBone": {
+            "_$ref": "cphe9xp4"
+          },
+          "localBounds": {
+            "_$type": "Bounds",
+            "min": {
+              "_$type": "Vector3",
+              "x": -0.4588232636451721,
+              "y": -2.2815840244293213,
+              "z": -0.48011696338653564
+            },
+            "max": {
+              "_$type": "Vector3",
+              "x": 1.9088962078094482,
+              "y": 0.2515535354614258,
+              "z": 1.4009677171707153
+            }
+          },
+          "simpleAnimatorTexture": {
+            "_$uuid": "924cd00f-f84f-41da-9661-66ce198f6a64",
+            "_$type": "Texture2D"
+          },
+          "_bonesNums": 60
+        }
+      ]
+    },
+    {
+      "_$id": "nedb5lrh",
+      "_$type": "Sprite3D",
+      "name": "Root",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "z": 2.1902157865127947e-10
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 1.3314485297969693e-7,
+          "y": -2.3020385838305156e-10,
+          "z": -0.008726533593525569,
+          "w": 0.9999619230807858
+        }
+      }
+    },
+    {
+      "_$id": "96zw04rs",
+      "_$type": "Sprite3D",
+      "name": "hitpoint",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 1.438198208808899
+        }
+      }
+    },
+    {
+      "_$id": "smpj0438",
+      "_$type": "Sprite3D",
+      "name": "headpoint",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 2.9423532485961914
+        }
+      }
+    },
+    {
+      "_$id": "52pppgu9",
+      "_$type": "Sprite3D",
+      "name": "skillpoint"
+    },
+    {
+      "_$id": "1z61oxqb",
+      "_$type": "Sprite3D",
+      "name": "bulletpoint",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 1.5702638626098633,
+          "z": 0.7871777415275574
+        }
+      }
+    },
+    {
+      "_$id": "2ds3i1nj",
+      "_$type": "Sprite3D",
+      "name": "root"
+    }
+  ]
+}

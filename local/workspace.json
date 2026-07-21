@@ -2,7 +2,7 @@
   "GamePanel": {
     "muted": false,
     "scale": 1,
-    "scale2": 0.4600003923688616,
+    "scale2": 0.33142896379743303,
     "dimension": {
       "name": "Game",
       "x": 720,
@@ -18,12 +18,22 @@
       "",
       "libs",
       "resources",
+      "resourcesLib",
+      "resourcesLib/effect",
+      "resourcesLib/effect/Animation",
+      "resourcesLib/effect/Fbx",
+      "resourcesLib/effect/Fbx/fbx_1",
+      "resourcesLib/effect/Material",
+      "resourcesLib/effect/Prefab",
+      "resourcesLib/effect/Prefab/CharFX",
+      "resourcesLib/effect/Texture",
+      "resourcesLib/UIModel",
       "Scene"
     ],
-    "twoColumn": false,
-    "firstColumnWidth": 289,
+    "twoColumn": true,
+    "firstColumnWidth": 280,
     "iconScale": 0,
-    "selected": "9b931ecf-fde9-44dd-acf3-15f8dc807965"
+    "selected": ":f29"
   },
   "ConsolePanel": {
     "collapse": true
@@ -36,8 +46,8 @@
   "SelectResourceDialog": {
     "iconScale": 0,
     "previewPanelHeight": 202,
-    "x": 1076,
-    "y": 81,
+    "x": 644,
+    "y": 422,
     "width": 635,
     "height": 656
   }

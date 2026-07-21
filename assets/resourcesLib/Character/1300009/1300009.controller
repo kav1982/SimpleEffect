@@ -1,0 +1,54 @@
+{
+  "_$type": "Animator",
+  "controller": {
+    "_$uuid": "42b1f821-946b-42cb-95c1-a00defaad987",
+    "_$type": "AnimationController"
+  },
+  "controllerLayers": [
+    {
+      "_$type": "AnimatorControllerLayer",
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 98.75000002496532,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 512
+        },
+        {
+          "x": 228,
+          "y": 296,
+          "_isLooping": 2,
+          "id": "2",
+          "name": "attack1",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "1e6fffb5-0bce-4f03-9673-7b63a1ebb86c"
+          },
+          "soloTransitions": []
+        }
+      ],
+      "defaultStateName": "attack1",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1
+    }
+  ],
+  "layerW": 150
+}

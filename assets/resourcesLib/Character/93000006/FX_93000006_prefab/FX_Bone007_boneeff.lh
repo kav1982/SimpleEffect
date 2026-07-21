@@ -1,0 +1,52 @@
+{
+  "_$ver": 1,
+  "_$id": "p1gr1f6b",
+  "_$type": "Sprite3D",
+  "name": "FX_Bone007_boneeff",
+  "_$child": [
+    {
+      "_$id": "z5wxf8f9",
+      "_$type": "Sprite3D",
+      "name": "eff",
+      "_$child": [
+        {
+          "_$id": "y11afpoo",
+          "_$type": "Sprite3D",
+          "name": "pian01",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": -1.4652987267993467e-8,
+              "y": -0.01593021998115196,
+              "z": -6.596177123951996e-8
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.75,
+              "y": 0.75,
+              "z": 0.75
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "339b90aa-4316-4139-9638-c2f6bc7997da",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "1abacfe3-e469-4039-a100-4e6659675ade",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

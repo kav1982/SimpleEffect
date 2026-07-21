@@ -1,0 +1,55 @@
+{
+  "_$type": "Animator",
+  "controller": {
+    "_$uuid": "6fee7281-3365-4f80-bd00-6b11c5a4e4ed",
+    "_$type": "AnimationController"
+  },
+  "controllerLayers": [
+    {
+      "_$type": "AnimatorControllerLayer",
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 897
+        },
+        {
+          "x": 489,
+          "y": 300,
+          "_isLooping": 1,
+          "id": "0",
+          "name": "stand",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "4f600482-e8d1-4357-9409-7349e0ba7dff"
+          }
+        }
+      ],
+      "defaultStateName": "stand",
+      "stageX": -90,
+      "stageY": 21,
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1
+    }
+  ],
+  "layerW": 150
+}

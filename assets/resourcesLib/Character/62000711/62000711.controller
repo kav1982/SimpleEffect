@@ -1,0 +1,191 @@
+{
+  "_$type": "Animator",
+  "controller": {
+    "_$uuid": "b11808d2-c379-4cba-8898-09402588c669",
+    "_$type": "AnimationController"
+  },
+  "controllerLayers": [
+    {
+      "_$type": "AnimatorControllerLayer",
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.99
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 689
+        },
+        {
+          "x": 513,
+          "y": 188,
+          "_isLooping": 2,
+          "id": "0",
+          "name": "attack3",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "a893302e-9885-4682-826f-ab4ae2dfd1fb"
+          },
+          "soloTransitions": [
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.999,
+              "name": "stand",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "x": 377,
+          "y": 126,
+          "_isLooping": 2,
+          "id": "1",
+          "name": "attack2",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "4b6bb32c-6b45-40b7-bb1d-2c625899c9cd"
+          },
+          "soloTransitions": [
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.999,
+              "name": "stand",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "x": 239.33333333333331,
+          "y": 113.99999893666973,
+          "_isLooping": 2,
+          "id": "2",
+          "name": "attack1",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "977d0827-e5a3-4871-a6dc-c7de52e1a5be"
+          },
+          "soloTransitions": [
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.999,
+              "name": "stand",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "x": 498,
+          "y": 460,
+          "_isLooping": 2,
+          "id": "3",
+          "name": "a_skill1_2",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "eed47cdc-4209-4374-bd01-fa3f8921a729"
+          },
+          "soloTransitions": [
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.999,
+              "name": "stand",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "x": 327,
+          "y": 465,
+          "_isLooping": 1,
+          "id": "4",
+          "name": "a_skill1_1",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "d47cb7fe-160c-4039-9142-9890b4cdba6d"
+          }
+        },
+        {
+          "x": 374,
+          "y": 305,
+          "_isLooping": 1,
+          "id": "5",
+          "name": "stand",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "4236285e-74ed-4cbe-b30d-dfae4719d0bd"
+          }
+        },
+        {
+          "x": 240,
+          "y": 540,
+          "_isLooping": 1,
+          "id": "6",
+          "name": "move",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "7e38d597-0c2c-4539-86bb-d18a7ee078e2"
+          }
+        },
+        {
+          "x": 399,
+          "y": 541,
+          "_isLooping": 2,
+          "id": "7",
+          "name": "die",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "39ec8ef1-ea57-4cab-a98a-3e892ccffd01"
+          }
+        },
+        {
+          "x": 550,
+          "y": 568,
+          "_isLooping": 1,
+          "id": "8",
+          "name": "a_skill2",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "eed47cdc-4209-4374-bd01-fa3f8921a729"
+          }
+        }
+      ],
+      "defaultStateName": "stand",
+      "stageX": -194,
+      "stageY": -21,
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1
+    }
+  ],
+  "layerW": 150
+}

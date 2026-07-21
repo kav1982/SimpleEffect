@@ -1,0 +1,54 @@
+{
+  "_$type": "Animator",
+  "id": 824,
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "FX_11000002_b_skill06",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 550,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        },
+        {
+          "x": 214,
+          "y": 267,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "ani_10015001_skill01_2",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "ff148375-4c48-4130-8504-c1f72be721fa"
+          }
+        }
+      ],
+      "defaultWeight": 1
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

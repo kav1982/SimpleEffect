@@ -1,0 +1,12 @@
+{
+  "uuid": "fbaf17ec-51db-4941-add5-ee464ef577f8",
+  "importer": {
+    "sRGB": true,
+    "platformAndroid": {
+      "format": "ASTC_8X8"
+    },
+    "platformIOS": {
+      "format": "ASTC_8X8"
+    }
+  }
+}

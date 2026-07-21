@@ -1,0 +1,49 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 550
+        },
+        {
+          "x": 443.74202528839726,
+          "y": 459.30577181440674,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "Ani_leishen_skill_dg",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "a18d08f9-3d22-4b98-86a9-c8e6036cb14b"
+          }
+        }
+      ],
+      "stageX": 67,
+      "stageY": -150,
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1
+    }
+  ],
+  "layerW": 150
+}

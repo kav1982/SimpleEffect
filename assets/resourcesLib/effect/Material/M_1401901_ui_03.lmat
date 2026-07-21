@@ -1,0 +1,185 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "textures": [
+      {
+        "path": "res://4a836ced-fe07-43ea-93a2-45d1c6f7844e",
+        "constructParams": [
+          128,
+          128,
+          1,
+          false,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 1
+        },
+        "name": "u_AlbedoTexture"
+      },
+      {
+        "path": "res://4051aeff-dd40-4459-8ff4-7b449a1b2177",
+        "constructParams": [
+          128,
+          128,
+          1,
+          false,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 1
+        },
+        "name": "_DistortMap"
+      },
+      {
+        "path": "res://00000000-0000-0000-0001-000000000000",
+        "constructParams": [
+          1,
+          1,
+          1,
+          false,
+          false,
+          false
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 0,
+          "wrapModeV": 0,
+          "anisoLevel": 1
+        },
+        "name": "_DissolveMap"
+      },
+      {
+        "path": "res://180f1ae0-63d4-4d92-82e8-af0a96e14aa9",
+        "constructParams": [
+          256,
+          256,
+          1,
+          true,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 1,
+          "wrapModeV": 1,
+          "anisoLevel": 1
+        },
+        "name": "_MaskMap"
+      }
+    ],
+    "type": "SceneEffectCommon",
+    "renderQueue": 3000,
+    "materialRenderMode": 3,
+    "u_AlphaTestValue": 0.5,
+    "s_Cull": 0,
+    "s_Blend": 1,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 1,
+    "s_BlendSrcRGB": 1,
+    "s_BlendDstRGB": 0,
+    "s_BlendSrcAlpha": 1,
+    "s_BlendDstAlpha": 0,
+    "s_DepthTest": 1,
+    "s_DepthWrite": false,
+    "u_AlbedoColor": [
+      1,
+      0.8573010599588674,
+      0.3178294573643411,
+      1
+    ],
+    "u_TilingOffset": [
+      1.5,
+      1.5,
+      0,
+      0
+    ],
+    "u_AlbedoColorStrength": 1.2,
+    "_AlbedoTextureUVAnim": [
+      0,
+      -0.2,
+      0,
+      0
+    ],
+    "FaceToCamera": false,
+    "CurveWorld": true,
+    "isUIEffect": true,
+    "u_SheetParam": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_EnableAnimControl": false,
+    "u_SheetProgress": 0,
+    "_EnablePosRandom": 0,
+    "u_PosRandomScale": 1,
+    "_AlbedoReceiveDistort": true,
+    "_DistortParam": [
+      0.5,
+      0,
+      0.1,
+      1
+    ],
+    "_DissolveReceiveDistort": true,
+    "_DissolveEdgeColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_DissolveParam": [
+      0,
+      0,
+      0.5,
+      0.5
+    ],
+    "_DissolveParam2": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "_MaskChannelA": true,
+    "_MaskReceiveDistort": false,
+    "_MaskTilingOffset": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "_MaskUVAnim": [
+      0,
+      0
+    ],
+    "_RimColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "_RimArea": 0.5,
+    "_RimSoft": 0.5,
+    "_RimReverse": false,
+    "_RimAdditive": false,
+    "_ReceiveFog": false,
+    "_AdditiveFog": false,
+    "_EnableSoftParticle": false,
+    "_EnableSoftMoveWithCurve": false,
+    "_SoftParticleStartHeight": 0.5,
+    "_SoftParticleEndHeight": -1,
+    "_Softness": 2,
+    "defines": [
+      "ADDTIVEFOG",
+      "EnableDistort",
+      "EnableMask"
+    ]
+  }
+}

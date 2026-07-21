@@ -1,0 +1,52 @@
+{
+  "_$ver": 1,
+  "_$id": "iupvfpr9",
+  "_$type": "Sprite3D",
+  "name": "93000006_UI1",
+  "_$child": [
+    {
+      "_$id": "bnrqocji",
+      "_$prefab": "bc83e9e4-0f1f-4914-b09e-ede9740872e1",
+      "name": "93000006_UIz",
+      "active": true,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 0,
+          "y": -0.45,
+          "z": 0
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0,
+          "y": 0.21643961393810288,
+          "z": 0,
+          "w": 0.9762960071199334
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.8,
+          "y": 0.8,
+          "z": 0.8
+        }
+      }
+    },
+    {
+      "_$id": "4ncngjba",
+      "_$type": "Sprite3D",
+      "name": "root"
+    },
+    {
+      "_$id": "ppg1p6wl",
+      "_$type": "Sprite3D",
+      "name": "headpoint",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 0.6370877027511597
+        }
+      }
+    }
+  ]
+}

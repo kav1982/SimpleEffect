@@ -46,6 +46,8 @@
           "transform": {
             "localPosition": {
               "_$type": "Vector3",
+              "x": 0.45995,
+              "y": 0.30976,
               "z": 15
             }
           },
@@ -121,6 +123,43 @@
               "z": 2
             }
           }
+        },
+        {
+          "_$id": "gh4s6fua",
+          "_$type": "Sprite3D",
+          "name": "UI_Effect",
+          "transform": {
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          },
+          "_$child": [
+            {
+              "_$id": "1wyojs02",
+              "_$prefab": "54ab41c2-d17b-4325-9089-069a14aad0e9",
+              "name": "62000712_UI",
+              "active": true,
+              "layer": 0,
+              "transform": {
+                "localPosition": {
+                  "_$type": "Vector3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "localRotation": {
+                  "_$type": "Quaternion",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -143,11 +182,14 @@
       "_$id": "u7j94yq2",
       "_$type": "Sprite",
       "name": "UIBg",
-      "y": 360,
-      "width": 720,
-      "height": 720,
+      "x": -218,
+      "y": -13,
+      "width": 512,
+      "height": 271,
+      "scaleX": 2.3,
+      "scaleY": 7,
       "texture": {
-        "_$uuid": "fe50fbfe-0dbf-4fca-bcf2-47a83edb4546",
+        "_$uuid": "1ee4797f-5557-461d-989a-33e3b372e1ff",
         "_$type": "Texture"
       }
     },
@@ -155,9 +197,10 @@
       "_$id": "pu0g4svm",
       "_$type": "Image",
       "name": "RTShow",
-      "y": 360,
       "width": 720,
       "height": 720,
+      "scaleX": 2,
+      "scaleY": 2,
       "skin": "res://82f6be22-646d-43d0-83b4-b922eb027ff4",
       "color": "#ffffff"
     }

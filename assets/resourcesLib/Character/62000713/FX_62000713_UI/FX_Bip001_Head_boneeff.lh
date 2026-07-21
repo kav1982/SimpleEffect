@@ -1,0 +1,52 @@
+{
+  "_$ver": 1,
+  "_$id": "obuxqzx2",
+  "_$type": "Sprite3D",
+  "name": "FX_Bip001_Head_boneeff",
+  "_$child": [
+    {
+      "_$id": "m3fs2r2d",
+      "_$type": "Sprite3D",
+      "name": "eff",
+      "_$child": [
+        {
+          "_$id": "ozqsw9be",
+          "_$type": "Sprite3D",
+          "name": "glow_lg",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 0.11159495813483855,
+              "y": 0.028362928859095412,
+              "z": 0.07469028015791246
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "MeshFilter",
+              "sharedMesh": {
+                "_$uuid": "339b90aa-4316-4139-9638-c2f6bc7997da",
+                "_$type": "Mesh"
+              }
+            },
+            {
+              "_$type": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "7a478328-d0a9-4bbc-b4d0-d3c7452022fc",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

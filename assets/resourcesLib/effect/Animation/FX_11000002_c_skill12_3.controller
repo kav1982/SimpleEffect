@@ -1,0 +1,54 @@
+{
+  "_$type": "Animator",
+  "id": 768,
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "xin",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "name": "xin",
+          "clip": {
+            "_$uuid": "4e997079-8f13-43ae-b311-c343cbf4c52f"
+          },
+          "loop": -1,
+          "speed": 1,
+          "clipEnd": 1,
+          "x": 152.3299936024984,
+          "y": 128.944663196463,
+          "id": "0"
+        },
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 550,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        }
+      ],
+      "defaultWeight": 1
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

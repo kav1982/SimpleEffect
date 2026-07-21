@@ -1,0 +1,53 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "defaultStateName": "lunhun_eff",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 746,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        },
+        {
+          "x": 186,
+          "y": 234,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "ani_10015001_skill01_1",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "e5d51fcf-8e0a-4293-b015-a1f023ab9a88"
+          }
+        }
+      ],
+      "defaultWeight": 1
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

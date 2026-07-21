@@ -8,13 +8,13 @@
       "displayBounds": {
         "x": 0,
         "y": 0,
-        "width": 2048,
-        "height": 1152
+        "width": 1920,
+        "height": 1080
       },
-      "x": 549,
-      "y": 265,
+      "x": 508,
+      "y": 48,
       "files": [
-        "9b931ecf-fde9-44dd-acf3-15f8dc807965"
+        "78817981-908d-404f-9bf4-9f387c2bcb7d"
       ],
       "active": 0,
       "name": "sceneEditor"
