@@ -19,7 +19,6 @@
           "_$type": "Material"
         }
       },
-      "ambientMode": 0,
       "ambientColor": {
         "_$type": "Color",
         "r": 0.424308,
@@ -36,6 +35,9 @@
         "b": 0.5
       },
       "lightmaps": [],
+      "componentElementDatasMap": {
+        "_$type": "Record"
+      },
       "_$child": [
         {
           "_$id": "6jx8h8bvc6",
@@ -52,7 +54,6 @@
           "fieldOfView": 60,
           "nearPlane": 0.3,
           "farPlane": 1000,
-          "clearFlag": 0,
           "clearColor": {
             "_$type": "Color",
             "r": 0,
@@ -68,7 +69,7 @@
           },
           "depthTextureFormat": 37,
           "renderTarget": {
-            "_$uuid": "8949fed4-601c-4d06-8828-942750c60017",
+            "_$uuid": "82f6be22-646d-43d0-83b4-b922eb027ff4",
             "_$type": "RenderTexture"
           }
         },
@@ -157,7 +158,7 @@
       "y": 360,
       "width": 720,
       "height": 720,
-      "skin": "res://8949fed4-601c-4d06-8828-942750c60017",
+      "skin": "res://82f6be22-646d-43d0-83b4-b922eb027ff4",
       "color": "#ffffff"
     }
   ]
