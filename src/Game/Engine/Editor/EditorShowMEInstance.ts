@@ -6,7 +6,6 @@ import { MeshEffectEntity } from "../CommandBufferDrawMgr/MeshEffectEntity";
 import MeshRenderer = Laya.MeshRenderer;
 import MeshFilter = Laya.MeshFilter;
 import { MeshEffectEntityMaterial } from "../../CustomShader/InstanceMaterial/MeshEffectEntityMaterial";
-import { EditorTools } from "./EditorTools";
 
 const { regClass, property, runInEditor } = Laya;
 

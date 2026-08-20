@@ -4,7 +4,6 @@ import Color = Laya.Color;
 import Vector4 = Laya.Vector4;
 import MeshFilter = Laya.MeshFilter;
 import { MeshEffectEntity } from "../CommandBufferDrawMgr/MeshEffectEntity";
-import { EditorTools } from "./EditorTools";
 
 const { regClass, property, runInEditor } = Laya;
 

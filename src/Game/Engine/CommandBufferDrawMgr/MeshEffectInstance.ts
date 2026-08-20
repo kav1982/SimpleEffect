@@ -22,18 +22,12 @@ export class MeshEffectInstance extends Laya.Script {
     onAwake(): void {
         if (Laya.LayaGL.renderEngine.getCapable(Laya.RenderCapable.DrawElement_Instance)){
             let cmdInstance = MeshEffectInstanceMgr.renderDic.get(this.MeshEffectID);
-            if (cmdInstance) {
-                cmdInstance.InitCommandEntity(this.owner, null, true);
-            }
-            else {
+            if (!cmdInstance) {
                 cmdInstance = new MeshEffectCMDInstance(this.MeshEffectID);
-                if (!GlobalShaderData.getInstance()) {
-                    return;
-                }
-                cmdInstance.SetCamera(GlobalShaderData.getInstance().camera);
-                cmdInstance.InitCommandEntity(this.owner, null, true);
+                cmdInstance.SetCamera(GlobalShaderData.getInstance()?.camera);
                 MeshEffectInstanceMgr.renderDic.set(this.MeshEffectID, cmdInstance);
             }
+            cmdInstance.InitCommandEntity(this.owner, null, true);
             this.cmdInstance = cmdInstance;
         }
     }
@@ -105,9 +99,13 @@ export class MeshEffectCMDInstance {
     }
 
     showEffect() {
-        if (this.onShowEffect || !this.camera)
+        if (this.onShowEffect)
             return;
-        this.camera = GlobalShaderData.getInstance().camera;
+        // onAwake 时相机可能尚未绑定（EditorSceneSet 异步 setCamera），此处重新取一次
+        const camera = GlobalShaderData.getInstance()?.camera;
+        if (!camera)
+            return;
+        this.camera = camera;
         this.camera.addCommandBuffer(CameraEventFlags.BeforeTransparent, this.commandBuffer);
         this.onShowEffect = true;
     }
