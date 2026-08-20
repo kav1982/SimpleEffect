@@ -7906,6 +7906,7 @@ declare module Laya {
         /**
          * 调用所有渲染指令
          */
+        clear(): void;
         _apply(): void;
         _applyOne(): boolean;
         getCommandsSize(): number;
@@ -13441,6 +13442,7 @@ declare module Laya {
         static MESH_INSTANCEBUFFER_TYPE_SIMPLEANIMATOR: number;
         /**@interanl */
         _triangleMesh: any;
+        _subMeshes: SubMesh[];
         /**
          * 加载网格模板。
          * @param url 模板地址。
