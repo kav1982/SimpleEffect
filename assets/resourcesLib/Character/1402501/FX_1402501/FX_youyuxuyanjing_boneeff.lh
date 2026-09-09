@@ -1,0 +1,223 @@
+{
+  "_$ver": 1,
+  "_$id": "shua24w9",
+  "_$type": "Sprite3D",
+  "name": "FX_youyuxuyanjing_boneeff",
+  "transform": {
+    "localPosition": {
+      "_$type": "Vector3",
+      "x": 0.000002533028236939572
+    },
+    "localRotation": {
+      "_$type": "Quaternion",
+      "x": 2.809740829761457e-13,
+      "y": 2.2899374788641278e-14,
+      "z": -6.434130831965554e-27
+    }
+  },
+  "_$child": [
+    {
+      "_$id": "69q14gyw",
+      "_$type": "Sprite3D",
+      "name": "eff",
+      "_$child": [
+        {
+          "_$id": "l2e4r6t2",
+          "_$type": "Sprite3D",
+          "name": "Glow_1",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 0.037,
+              "z": 3.3622975292857404e-8
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "y": 0.7071067811865475,
+              "w": 0.7071067811865476
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "ShurikenParticleRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "afc3f239-e15b-4a6e-ab25-dd86b3bf0df6",
+                  "_$type": "Material"
+                }
+              ],
+              "renderMode": 4,
+              "mesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              },
+              "_particleSystem": {
+                "_isPlaying": true,
+                "duration": 999,
+                "startLifetimeConstant": 999,
+                "startSpeedConstant": 0,
+                "startSizeConstant": 0.4,
+                "startSizeConstantSeparate": {
+                  "_$type": "Vector3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "startSizeConstantMinSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startSizeConstantMaxSeparate": {
+                  "_$type": "Vector3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "startRotationConstantSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startRotationConstantMinSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startRotationConstantMaxSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startColorConstant": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 0.6662071078431373,
+                  "w": 0.1568627450980392
+                },
+                "startColorConstantMin": {
+                  "_$type": "Vector4"
+                },
+                "startColorConstantMax": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1,
+                  "w": 1
+                },
+                "scaleMode": 0,
+                "maxParticles": 100,
+                "randomSeed": {
+                  "_$type": "Uint32Array",
+                  "value": [
+                    0
+                  ]
+                },
+                "emission": {
+                  "emissionRate": 0,
+                  "_bursts": [
+                    {
+                      "_$type": "Burst",
+                      "_minCount": 1,
+                      "_maxCount": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "_$id": "3ssdnhic",
+          "_$type": "Sprite3D",
+          "name": "Glow_2",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 0.037,
+              "z": 3.3622975292857404e-8
+            },
+            "localRotation": {
+              "_$type": "Quaternion",
+              "y": 0.7071067811865475,
+              "w": 0.7071067811865476
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "ShurikenParticleRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "afc3f239-e15b-4a6e-ab25-dd86b3bf0df6",
+                  "_$type": "Material"
+                }
+              ],
+              "renderMode": 4,
+              "mesh": {
+                "_$uuid": "d01ba833-82c8-4e49-aa77-28a68f87ca4e",
+                "_$type": "Mesh"
+              },
+              "_particleSystem": {
+                "_isPlaying": true,
+                "duration": 999,
+                "startLifetimeConstant": 999,
+                "startSpeedConstant": 0,
+                "startSizeConstant": 0.7,
+                "startSizeConstantSeparate": {
+                  "_$type": "Vector3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "startSizeConstantMinSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startSizeConstantMaxSeparate": {
+                  "_$type": "Vector3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "startRotationConstantSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startRotationConstantMinSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startRotationConstantMaxSeparate": {
+                  "_$type": "Vector3"
+                },
+                "startColorConstant": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 0.5490196078431373,
+                  "w": 0.19607843137254902
+                },
+                "startColorConstantMin": {
+                  "_$type": "Vector4"
+                },
+                "startColorConstantMax": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1,
+                  "w": 1
+                },
+                "scaleMode": 0,
+                "maxParticles": 100,
+                "randomSeed": {
+                  "_$type": "Uint32Array",
+                  "value": [
+                    0
+                  ]
+                },
+                "emission": {
+                  "emissionRate": 0,
+                  "_bursts": [
+                    {
+                      "_$type": "Burst",
+                      "_minCount": 1,
+                      "_maxCount": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
